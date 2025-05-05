@@ -1,6 +1,7 @@
 "use client";
 
 import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import { MdEmail } from 'react-icons/md';
 import { motion } from "framer-motion";
 
 export default function Footer() {
@@ -39,8 +40,20 @@ export default function Footer() {
             >
                 <FaWhatsapp />
             </motion.a>
+
+            <motion.a
+            href="mailto:erradzan@gmail.com?subject=Hello&body=I wanted to reach out about..."
+            target="_blank"
+            rel="noopener noreferrer"
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 0.9 }}
+            className="text-white hover:text-gray-400 cursor-pointer"
+            >
+                <MdEmail />
+            </motion.a>
         </div>
-        <p className="text-white mt-4 text-sm md:text-md lg:text-lg xl:text-xl 2xl:text-2xl text-center px-4">
+        
+        <p className="text-white mt-4 text-sm md:text-sm lg:text-md xl:text-md 2xl:text-lg text-center px-4">
             Currently looking for new opportunities. Feel free to reach out!
         </p>
     </footer>

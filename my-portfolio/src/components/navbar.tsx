@@ -52,12 +52,13 @@ export default function Navbar() {
               className="flex flex-col items-center space-y-4 py-4 bg-transparent"
             >
                 <motion.button
-                onClick={goToAbout}
+                onClick={goToHome}
                 className="text-white border-b border-white cursor-pointer hover:zoom sm:text-md md:text-lg lg:text-xl xl:text-xl 2xl:text-3xl"
                 whileHover={{ scale: 1.05 }}
                 >
                     Home
                 </motion.button>
+                
                 <motion.button
                     onClick={goToAbout}
                     className="text-white border-b border-white cursor-pointer hover:zoom sm:text-md md:text-lg lg:text-xl xl:text-xl 2xl:text-3xl"
@@ -65,6 +66,7 @@ export default function Navbar() {
                 >
                     About Me
                 </motion.button>
+                
                 <motion.button
                     onClick={goToProjects}
                     className="text-white border-b border-white cursor-pointer hover:zoom sm:text-md md:text-lg lg:text-xl xl:text-xl 2xl:text-3xl"
@@ -74,6 +76,7 @@ export default function Navbar() {
                 </motion.button>
             </motion.div>
           )}
+        
         </AnimatePresence>
       </div>
     </>

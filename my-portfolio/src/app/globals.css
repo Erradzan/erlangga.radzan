@@ -120,3 +120,21 @@
     @apply bg-background text-foreground;
   }
 }
+
+.text-glow {
+  text-shadow: 0 0 4px white, 0 0 8px white;
+}
+
+.text-outline {
+  color: transparent;
+  -webkit-text-stroke: 0.5px white;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
+section {
+  scroll-margin-top: 100px;
+}
