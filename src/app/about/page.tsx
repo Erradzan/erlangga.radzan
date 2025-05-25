@@ -232,7 +232,7 @@ export default function AboutPage() {
                         <ul className="list-disc list-inside space-y-2">
                             <li>Analytical mindset – I enjoy deconstructing problems to find logical, data-driven solutions.</li>
                             
-                            <li>Eager to learn – I embrace challenges as opportunities to grow, whether it&apos;s learning new tech stacks or problem-solving techniques.</li>
+                            <li>Eager to learn – I embrace challenges as opportunities to grow, whether it is learning new tech stacks or problem-solving techniques.</li>
                             
                             <li>Strong attention to detail – I naturally notice small inconsistencies and always strive for precision.</li>
                             
@@ -248,11 +248,11 @@ export default function AboutPage() {
                             
                             <li>Still learning backend deeply — but progressing steadily by building personal projects and studying documentation/tutorials regularly.</li>
                             
-                            <li>Tendency to over-polish – I&apos;ve learned to set scope limits and trust that &quot;done&quot; can be better than &quot;perfect&quot;.</li>
+                            <li>Tendency to over-polish – I have learned to set scope limits and trust that &quot;done&quot; can be better than &quot;perfect&quot;.</li>
                             
                             <li>Not a fan of CSS... but I can wrestle with it when I have to. I use utility frameworks like Tailwind to minimize friction.</li>
                             
-                            <li>Public speaking – I&apos;m improving by practicing in smaller groups, rehearsing presentations aloud, and learning storytelling techniques.</li>
+                            <li>Public speaking – I am improving by practicing in smaller groups, rehearsing presentations aloud, and learning storytelling techniques.</li>
                         </ul>
                     </div>
                 </div>
