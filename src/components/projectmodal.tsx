@@ -38,6 +38,8 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, isOpen, onClose })
             <Image
               src={project.screenshot}
               alt={`${project.name} Screenshot`}
+              width={400}
+              height={300}
               className="w-full rounded mb-4"
             />
             <h2 className="text-2xl font-bold mb-2">{project.name}</h2>

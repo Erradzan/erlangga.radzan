@@ -98,7 +98,7 @@ export default function HomePage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            Let's Achieve Greatness Together
+            Let&apos;s Achieve Greatness Together
           </motion.h2>
 
           <motion.p 
@@ -107,7 +107,7 @@ export default function HomePage() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.3, duration: 0.8 }}
           >
-            Collaboration is one of the best tools for innovation. If we work together, we can build something truly amazing. Can't wait to hear from you.
+            Collaboration is one of the best tools for innovation. If we work together, we can build something truly amazing. Can&apos;t wait to hear from you.
           </motion.p>
 
           <motion.div 
@@ -131,7 +131,7 @@ export default function HomePage() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.6, duration: 0.8 }}
           >
-            Thank you for visiting my portfolio.<br></br> If you have any questions or want to work together, please don't hesitate to contact me.
+            Thank you for visiting my portfolio.<br></br> If you have any questions or want to work together, please don&apos;t hesitate to contact me.
           </motion.p>
 
           <motion.p 

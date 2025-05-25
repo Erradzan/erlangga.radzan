@@ -16,6 +16,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, onClick }) => {
       <Image
         src={project.logo}
         alt={project.name}
+        width={64}
+        height={64}
         className="w-16 h-16 object-contain mb-2"
       />
       <h3 className="text-lg font-semibold text-center text-white">{project.name}</h3>
