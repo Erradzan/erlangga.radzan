@@ -20,7 +20,7 @@ export const projects: Project[] = [
         tech: ["Next.js", "Tailwind CSS"],
         live: "https://toko-edi-ya.vercel.app/",
         github: "https://github.com/Erradzan/Portfolio",
-        info: "update 1.0"
+        info: "update 0.9"
     },
     {
         id: 2,
@@ -69,7 +69,7 @@ export const projects: Project[] = [
     {
         id: 6,
         name: "Pos Warung Makan",
-        logo: "/support/jcx.webp",
+        logo: "/support/pos.webp",
         screenshot: "/support/sspos.webp",
         description: "A restaurant system web concept, using Next.js, Tailwind and API.",
         tech: ["HTML", "CSS", "JavaScript"],
