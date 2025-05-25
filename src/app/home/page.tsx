@@ -116,7 +116,13 @@ export default function HomePage() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.9, duration: 0.8 }}
           >
-            <Image src="/support/giphy.gif" alt="Teamwork GIF" className="w-80 h-auto justify-center items-center" />
+            <Image
+              src="/support/giphy.gif"
+              alt="Teamwork GIF"
+              width={320}
+              height={240}
+              className="w-80 h-auto justify-center items-center"
+            />
           </motion.div>
 
           <motion.p 
