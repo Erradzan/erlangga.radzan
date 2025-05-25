@@ -18,7 +18,7 @@ export const projects: Project[] = [
         screenshot: "/support/ssportfolio.webp",
         description: "An portfolio concept using Next.js and Tailwind.",
         tech: ["Next.js", "Tailwind CSS"],
-        live: "https://toko-edi-ya.vercel.app/",
+        live: "https://erlangga-radzan.vercel.app/",
         github: "https://github.com/Erradzan/Portfolio",
         info: "update 0.9"
     },
