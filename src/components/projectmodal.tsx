@@ -1,6 +1,7 @@
 import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Project } from "@/components/projectdata";
+import Image from "next/image";
 
 interface ProjectModalProps {
   project: Project | null;
@@ -34,7 +35,7 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, isOpen, onClose })
             >
               ✕
             </button>
-            <img
+            <Image
               src={project.screenshot}
               alt={`${project.name} Screenshot`}
               className="w-full rounded mb-4"

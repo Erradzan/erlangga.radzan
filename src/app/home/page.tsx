@@ -6,6 +6,7 @@ import Footer from "@/components/footer";
 import { FaReact, FaGitAlt, FaHtml5, FaCss3Alt } from "react-icons/fa";
 import { SiNextdotjs, SiTailwindcss, SiFramer, SiJavascript, SiPostman } from "react-icons/si";
 import RunningImage from "@/components/runningimage";
+import Image from "next/image";
 
 export default function HomePage() {
   return (
@@ -115,7 +116,7 @@ export default function HomePage() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.9, duration: 0.8 }}
           >
-            <img src="/support/giphy.gif" alt="Teamwork GIF" className="w-80 h-auto justify-center items-center" />
+            <Image src="/support/giphy.gif" alt="Teamwork GIF" className="w-80 h-auto justify-center items-center" />
           </motion.div>
 
           <motion.p 

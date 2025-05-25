@@ -1,5 +1,6 @@
 import React from "react";
 import { Project } from "@/components/projectdata";
+import Image from "next/image";
 
 interface ProjectCardProps {
   project: Project;
@@ -12,7 +13,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, onClick }) => {
       onClick={() => onClick(project)}
       className="cursor-pointer flex flex-col items-center p-4 border rounded-2xl hover:shadow-md transition"
     >
-      <img
+      <Image
         src={project.logo}
         alt={project.name}
         className="w-16 h-16 object-contain mb-2"

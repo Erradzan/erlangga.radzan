@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
 
 interface ModalImageProps {
   buttonLabel: string;
@@ -57,7 +58,7 @@ export default function ModalImage({ buttonLabel, imageUrl, altText = "Certifica
               transition={{ type: "spring", stiffness: 200, damping: 20 }}
               onClick={(e) => e.stopPropagation()}
             >
-              <img src={imageUrl} alt={altText} className="rounded-lg max-h-[80vh]" />
+              <Image src={imageUrl} alt={altText} className="rounded-lg max-h-[80vh]" />
               
               <motion.button
                 className="mt-4 block mx-auto bg-black text-white hover:bg-[#4b0000] border border-white px-4 py-2 rounded"

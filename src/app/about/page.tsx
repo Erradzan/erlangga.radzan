@@ -4,6 +4,7 @@ import Navbar from '@/components/navbar';
 import Footer from '@/components/footer';
 import ModalImage from "@/components/modalimage";
 import FloatingSidebar from '@/components/floatingsidebar';
+import Image from 'next/image';
 
 export default function AboutPage() {
   return (
@@ -58,7 +59,7 @@ export default function AboutPage() {
                 
                 <div className="flex flex-col md:flex-row gap-8 items-start">
                     <div className="flex-shrink-0 relative overflow-hidden group">
-                        <img
+                        <Image
                             src="/support/education.webp"
                             alt="Education Illustration"
                             className="w-48 h-auto object-cover transition-transform duration-500 group-hover:scale-250 group-hover:translate-x-4 group-hover:translate-y-50"
